@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://crudcrud.com/api/7d8e041d39774521b171d11dc425a40f
+    ">
+    
+    
+</head>
+
+<body> 
+            <table>
+                <tr>
+                    <td>
+                        <form autocomplete="off" onsubmit="onFormSubmint()">
+                            <div>
+                                <label for="product "> band</label>
+                                <input type="text" name="product code" id="product code">
+                            </div>
+                            <div class="form-action--button">
+                                <label for="product "> Ganra</label>
+                                <input type="text" name="product code" id="product code">
+                            </div>
+                            <div>
+                                <label for="product "> ablum</label>
+                                <input type="text" name="product code" id="product code">
+                            </div>
+                            <div>
+                                <label for="product "> year founded</label>
+                                <input type="text" name="product code" id="product code">
+                            </div>
+                            <div>
+                                <label for="product "> how many ablums</label>
+                                <input type="text" name="product code" id="product code">
+                            </div>
+
+                    </form>
+
+                </td>
+                <td>
+                    <table class="list" id="storeListven">
+                        <thead>
+                            <tr>
+                                <th>
+                                  band  
+                                </th>
+                                <th>
+                                    Ganra  
+                                  </th>
+                                  <th>
+                                    ablum 
+                                  </th>
+                                  <th>
+                                    year founded  
+                                  </th>
+                                  <th>
+                                    number of ablums   
+                                  </th>
+                            </tr>
+
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+    
+         
+            <div class="action buttons">
+                <input type="submit">
+            </div>
+            
+            <div class="action buttons">
+                <input type="delete">
+            </div>
+<div id="debug"></div>
+        <script>
+            fetch("sample-file.json")
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+            })
+        </script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/.bundle.js"></script>
+    <script src="bower install https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+    <script src="./project.js"></script>
+</body>
+</html>
